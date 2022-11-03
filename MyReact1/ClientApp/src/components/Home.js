@@ -20,7 +20,7 @@ export class Home extends Component {
                   <div className="col-4">
                       <div classname="card product-card">
                           <div className="card-body">
-                              <h5 className="card-title">{product.title}</h5>
+                              <h5 className="card-title"><a href="/product/details">{product.title}</a></h5>
                               <p className="card-text">{product.description}</p>
                           </div>
                       </div>
